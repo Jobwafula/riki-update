@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-family: 'Work Sans', sans-serif; */
+   font-family: 'Nunito', sans-serif;   
+   /* font-family: 'open Sans', sans-serif;  */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  display: flex;
+}
+
+ul >li{
+  list-style: none;
+  margin-left: 10px;
+}
+
+
+
+
+.learn-wrap{
+ color: white;
+  border: 1px solid white;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  width: 30%;
+  margin-left: 100px;
+  align-self: center;
+}
+
+.success-background{
+  background-image: url('./job.jpeg');
+  background-repeat: no-repeat;
+  background-position: 90% 30%;
+  background-size: 400px;
+}
+
+@media(max-width:768px){
+  .success-background{
+    background-image: none;
+  }
+}
+
+.breadcrumb-cover li:after{
+	
+}
+
+/* Learn wrap Section */
+
+.learn-wrap>p{
+  align-self: center;
+}
+
+.learn-wrap >p >a{
+  color: white;
+
+}
+
+/* buttons */
+#button-wrapper{
+ padding: 10px; 
+}
+
+
+#how-it-works{
+  border: 1px solid grey;
+  background: white;
+  margin-left: 10px;
+  border-radius: 0px;
+}
+
+
+#apply{
+  border: 1px solid grey;
+  color: black;
+  background: black;
+  border-radius: 0px; 
+}
+
+#apply>a{
+  color:white;
+  text-decoration: none;
+}
+#apply>a:hover{
+  color:black;
+}
+#applylink:hover{
+  color:black
+}
+
+#how-it-works>a{
+  color: black;
+  text-decoration: none;
+}
+
+#apply:hover{
+  border: none;
+  background:white;
+  color:black;
+  border: 1px solid grey;
+}
+
+#how-it-works:hover{
+  background: white;
+}
+
+/* ul */
+#ul-footer{
+  /* margin-left: 85vw; */
+
+}
+#nav-link{
+  color:white;
+  text-decoration: none;
+}
+#nav-link:hover{
+  color:rgb(23, 23, 243);
+  text-decoration:underline
+}
+
+#ul-nav{
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  /* margin-left: auto; */
+}
+
+
+/* Company Adds */
+#row-target{
+  background-color:rgb(4, 45, 68);
+  height: 65vh;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+
+#row-target .description{
+	width: 60%;
+}
+
+.description{
+	line-height: 1.5rem;
+	font-weight: bold;
+}
+
+#row-target .joinUs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+}
+
+.joinUs button {
+	padding: 10px;
+	width: 60%;
+	border: 1px solid grey;
+	border-radius: 0px;
+	color: black;
+	font-weight: bolder;
+}
+
+
+/* Add header section*
+ */
+.AddHeader{
+	display: flex;
+	width: 100%;
+}
+
+/* Styling for the footer section*/
+footer{
+  background-color: black;
+  height: 60vh;
+  color: white;
+  font-weight: bolder;
+}
+
+
+
+/* rgb(2, 2, 83) */
+
+
+.footer-area {
+  background:black;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 0 7px;
+}
+
+
+.footer-area.footer-area-style-2 .footer-social ul li i {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-area.footer-area-style-2 .footer-social ul li i:hover {
+  color: #EF4126;
+}
+
+.footer-area.footer-area-style-2 .single-widget .chart-wrap .round-chart .circle-percent .circle-inbox {
+  background: #241156;
+}
+
+.footer-area.footer-area-style-2 .single-widget .chart-wrap .round-chart.round-chart-design-2 .circle-percent {
+  background: #EF4126;
+}
+
+.footer-area.footer-area-style-2 .single-widget .chart-wrap .round-chart.round-chart-design-2 .circle-percent:after {
+  background: #EF4126;
+}
+
+.footer-area.footer-area-style-2 .single-widget .chart-wrap .round-chart.round-chart-design-2 .circle-percent .circle-inner .round-per {
+  background: #EF4126;
+}
+
+.footer-area.footer-area-style-2 .single-widget .footer-link ul li a:hover, .footer-area.footer-area-style-2 .single-widget .footer-contact ul li a:hover {
+  color: #EF4126;
+}
+
+.footer-area.footer-area-style-2 .single-widget .footer-contact ul li {
+  color: #EF4126;
+}
+
+.footer-area.footer-area-style-3 {
+  background-image: url(../src/images/footer-3.png);
+  padding: 220px 0 7px;
+}
+
+.footer-border {
+  padding-bottom: 30px;
+  margin-bottom: 56px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-social ul li {
+  margin-right: 26px;
+  display: inline-block;
+}
+
+.footer-social ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-social ul li i {
+  font-size: 14px;
+  color: #8669FB;
+  -webkit-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  display: block;
+}
+
+.footer-social ul li i:hover {
+  color: #EF4126;
+  -webkit-transform: rotate3d(1, 1, 1, -15deg);
+          transform: rotate3d(1, 1, 1, -15deg);
+}
+
+.footer-title h3 {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.footer-contact ul.useful-2 {
+  padding-right: 63px;
+}
+
+.single-widget .footer-link ul.useful-1, .single-widget .footer-contact ul.useful-1 {
+  padding-right: 20px;
+}
+
+.single-widget .footer-link ul li, .single-widget .footer-contact ul li {
+  margin-bottom: 30px;
+}
+
+.single-widget .footer-link ul li:last-child, .single-widget .footer-contact ul li:last-child {
+  margin-bottom: 0;
+}
+
+.single-widget .footer-link ul li a, .single-widget .footer-contact ul li a {
+  color: #FFFFFF;
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: block;
+}
+
+.single-widget .footer-link ul li a:hover, .single-widget .footer-contact ul li a:hover {
+  color: #EF4126;
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+}
+
+.single-widget .footer-contact ul li {
+  font-weight: 700;
+  color: #EF4126;
+}
+
+.single-widget .footer-contact ul li a {
+  font-weight: 400;
+}
+
+.copy-text {
+  padding: 19px 10px;
+}
+
+.copy-text p {
+  color: #FFFFFF;
+}
+
+.copy-text p a {
+  color: #EF4126;
+}
+
+.copy-text.copy-text-2 p a {
+  color: #EF4126;
+}
+
+/* End of Footer*/
+
+#btnprof:hover{
+  margin:2px;
+  background-color: rgb(80, 78, 78); 
+  
+  color:black;
+  
+  text-align: center;
+  
+  
+
+  
+}
